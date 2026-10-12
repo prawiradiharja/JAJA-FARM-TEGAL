@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f5f7fa;color:#222}
+header{background:linear-gradient(135deg,#004d4d,#00a693);color:white;padding-bottom:40px;border-radius:0 0 30px 30px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:15px 20px;max-width:1100px;margin:0 auto}
+.logo{font-weight:700;letter-spacing:1px}
+.btn-wa-nav{background:white;color:#004d4d;padding:6px 14px;border-radius:20px;text-decoration:none;font-weight:600;font-size:13px}
+.hero{text-align:center;padding:10px 20px}
+.foto-profil{width:90px;height:90px;border-radius:50%;border:4px solid white;object-fit:cover;margin-bottom:10px}
+.hero h1{font-size:26px;line-height:1.2;margin:10px 0}
+.hero h1 span{color:#ffeb3b}
+.hero p{opacity:0.9;font-size:14px}
+.stats{display:flex;justify-content:center;gap:30px;margin:20px 0}
+.stats b{display:block;font-size:18px}.stats small{font-size:11px;opacity:0.8}
+.btn-utama{display:inline-block;background:#25D366;color:white;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:700;margin-top:10px;box-shadow:0 4px 15px rgba(0,0,0,0.2)}
+.produk-section{max-width:1100px;margin:30px auto;padding:0 15px}
+.produk-section h2{text-align:center;font-size:22px}.sub{text-align:center;color:#777;font-size:13px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px}
+.card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.06);transition:0.2s}
+.card:hover{transform:translateY(-4px)}
+.card img{width:100%;height:240px;object-fit:cover;display:block}
+.card-body{padding:14px}
+.badge{background:#e0f2f1;color:#004d4d;font-size:10px;font-weight:700;padding:4px 8px;border-radius:10px}
+.badge.gold{background:#fff3cd;color:#856404}.badge.black{background:#222;color:white}
+.card-body h3{font-size:16px;margin:8px 0 4px}.card-body p{font-size:12px;color:#666;line-height:1.4}
+.harga{font-size:18px;font-weight:700;color:#004d4d;margin:10px 0}.harga small{font-size:12px;font-weight:400}
+.btn-beli{display:block;text-align:center;background:#004d4d;color:white;padding:10px;border-radius:12px;text-decoration:none;font-weight:600;font-size:14px}
+footer{text-align:center;padding:30px 15px;color:#888;font-size:12px;line-height:1.5}
+.sosmed{display:flex;justify-content:center;gap:10px;margin-top:20px}
+.s{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;text-decoration:none;color:white}
+.s.wa{background:#25D366} .s.fb{background:#1877F2} .s.tt{background:#000000} .s.yt{background:#FF0000}
+.sosmed-footer{margin-bottom:10px} .sosmed-footer a{color:#004d4d;text-decoration:none;font-weight:600;font-size:13px}
+.logo-besar{width:120px;height:120px;border-radius:50%;border:4px solid white;background:white;object-fit:cover}
+.sosmed{display:flex;justify-content:center;gap:12px;margin-top:22px}
+.icon{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none}
+.icon img{width:22px;height:22px}
+.icon.wa{background:#25D366} .icon.fb{background:#1877F2} .icon.tt{background:#000} .icon.yt{background:#FF0000}
